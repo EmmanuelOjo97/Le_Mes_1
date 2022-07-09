@@ -22,5 +22,14 @@ export default {
       type: "array",
       of: [{ type: "comment" }],
     },
+    {
+      name: "releaseDate",
+      title: "Release date",
+      type: "date",
+      options: {
+        dateFormat: "DD-MM-YYYY",
+        calendarTodayLabel: "Today",
+      },
+    },
   ],
 };

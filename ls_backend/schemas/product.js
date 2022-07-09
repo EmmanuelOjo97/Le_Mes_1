@@ -15,6 +15,7 @@ export default {
       options: { hotspot: true },
     },
     { name: "userId", title: "UserID", type: "string" },
+    // { name: "releaseDate", title: "Release date", type: "date" },
     { name: "postedBy", title: "PostedBy", type: "postedBy" },
     {
       name: "comments",
@@ -22,5 +23,6 @@ export default {
       type: "array",
       of: [{ type: "comment" }],
     },
+    { name: "releaseDate", title: "Release date", type: "date" },
   ],
 };
